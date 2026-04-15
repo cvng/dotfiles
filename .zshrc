@@ -18,7 +18,7 @@ plugins=(
 source "$ZSH/oh-my-zsh.sh"
 
 # Aliases
-alias cc="claude"
 alias cat="bat"
+alias cc="claude"
 alias dot="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias ls="eza"

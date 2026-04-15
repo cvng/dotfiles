@@ -49,9 +49,7 @@
     "enabled": false,
   },
   "inlay_hints": {
-    "enabled": true,
-    "show_parameter_hints": true,
-    "show_type_hints": true,
+    "enabled": false,
   },
   "inline_code_actions": false,
   "lsp": {
@@ -116,6 +114,7 @@
     "font_family": "JetBrains Mono",
     "font_weight": 600,
     "line_height": "comfortable",
+    "option_as_meta": true,
     "toolbar": {
       "breadcrumbs": true,
     },
@@ -124,6 +123,9 @@
     "dark": "Oscura",
     "light": "Gruvbox Light Hard",
     "mode": "system",
+  },
+  "title_bar": {
+    "show_user_picture": false,
   },
   "toolbar": {
     "quick_actions": false,
