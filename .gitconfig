@@ -11,9 +11,6 @@
 	defaultBranch = main
 [core]
 	ignorecase = false
-	editor = zed --wait
-[diff]
-	external = difft --display=inline
 [rerere]
 	enabled = true
 [gpg]
@@ -22,3 +19,4 @@
 	allowedSignersFile = /Users/cvng/.ssh/allowed-signers
 [commit]
 	gpgsign = true
+[but "ui"]

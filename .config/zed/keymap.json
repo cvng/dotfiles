@@ -1,9 +1,20 @@
 [
   {
-    "context": "Pane",
+    "context": "Workspace",
     "bindings": {
       "ctrl-tab": "pane::ActivateNextItem",
       "ctrl-shift-tab": "pane::ActivatePreviousItem",
+    },
+  },
+  {
+    "bindings": {
+      "cmd-p": [
+        "task::Spawn",
+        {
+          "task_name": "Search project files...",
+          "reveal_target": "center",
+        },
+      ],
     },
   },
 ]
