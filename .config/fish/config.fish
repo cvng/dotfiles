@@ -30,3 +30,10 @@ if status is-interactive
     set --global --export PAGER "bat"
     set --global --export XDG_CONFIG_HOME "$HOME/.config"
 end
+
+function brew
+    command brew $argv
+    if test "$argv[1]" = "install" -o "$argv[1]" = "uninstall"
+        command brew bundle dump --force --file="$HOME/Brewfile"
+    end
+end
